@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: rgb(255, 213, 191);
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: rgb(255, 213, 191);
+  color: rgb(255, 160, 143);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.menu li:hover {
+  background-color: rgb(255, 173, 167);
+  color: rgb(255, 213, 191);
+}
+/*
+.menu ul only screen and (max-width: 600px){
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li only screen and (max-width: 600px){
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: rgb(255, 213, 191);
+  color: rgb(255, 160, 143);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.menu li:hover only screen and (max-width: 600px){
+  background-color: rgb(255, 173, 167);
+  color: rgb(255, 213, 191);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255, 213, 191);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(255, 160, 143);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: rgb(255, 213, 191);
+  background-color: rgb(255, 160, 143);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 213, 191);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 160, 143);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  float: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(255, 160, 143);
+color: rgb(255, 213, 191)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+.aside {
+  background-color: rgb(255, 213, 191);
+  padding: 15px;
+  color: rgb(255, 173, 167);
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: rgb(255, 213, 191);
+  color: rgb(255, 160, 143);
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+[class*="col-"] {
+  width: 100%;
+
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
